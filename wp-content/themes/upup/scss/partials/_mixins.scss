@@ -1,0 +1,12 @@
+@mixin sudo-gradient-sep{
+	content: "";
+	height: 1px;
+	@include background-image(linear-gradient(to right,  rgba(229,229,229,0) 0%,rgba(229,229,229,1) 50%,rgba(229,229,229,0) 100%));
+	display: block;
+}
+
+@mixin vert-align($perc, $perc2){
+	position: relative;
+	top: $perc;
+	@include transform(translateY($perc2));
+}
