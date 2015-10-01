@@ -55,6 +55,5 @@ set :use_sudo, false
 after "deploy:update_code" do
   run "ln -s #{shared_path}/uploads #{release_path}/wp-content"
   run "ln -s #{shared_path}/wp_db_sync #{release_path}"
-  run "(cd #{release_path}/wp-content/themes/gatos/scss/; compass compile -c config.rb style.scss)"
 end
 after "deploy", "deploy:cleanup"
