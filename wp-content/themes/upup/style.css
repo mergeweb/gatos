@@ -1,0 +1,53 @@
+/*
+Theme Name: 	upup
+Theme URI: 		tbd
+Description: 	A new theme for the gatos form
+Version: 		0.1
+Author: 		The team at Up & Up;
+*/
+
+/* Only here because wordpress requires a style.css */
+/* Please edit the main.scss file in the scss folder */
+
+/*Gravity Form*/
+
+form{position: absolute;width: 500px;left: 0;right: 0;margin: auto;top: 0;bottom: 0;margin: auto;height: 400px;}
+select, input[type=submit]{-webkit-appearance:none;}
+select option{color:red;}
+*{box-sizing:border-box;font-family:"Adelle", serif;}
+
+.gform_wrapper.gf_browser_chrome ul.gform_fields li.gfield select{
+	margin-left: 0.063em;
+	width: 100%;
+	padding: 15px;
+	line-height: 16px;
+	border: 1px solid #333;
+	border-radius: 0px;
+	background-image: url('img/green-down.png');
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: 458px 17px;
+}
+
+.gform_wrapper .top_label .gfield_label{
+    margin: 0;
+    width: 100%;
+}
+
+#field_2_2{
+    background-color: ;
+    padding: 15px;
+}
+
+#input_2_1{border-color:#f7ae90;-webkit-appearance:none;background-color:white;}
+
+#input_2_1 option{color:red;}
+
+#input_2_3{    width: 100%;
+    padding: 15px;margin:0;}
+
+.gform_wrapper ul.gfield_radio li input[type="radio"]:checked+label{font-weight: normal !important;}
+
+input[type=submit]{width: 100%;cursor:pointer;height:50px;background-color: white;color:#f7ae90;border:1px solid #f7ae90;}
+input[type=submit]:hover{color:white;background-color:#f7ae90;border:none;}
+.gform_wrapper .gform_footer{margin:0 !important;padding:0 !important;}
