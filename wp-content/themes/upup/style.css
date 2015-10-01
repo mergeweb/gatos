@@ -34,17 +34,17 @@ select option{color:red;}
     width: 100%;
 }
 
-#field_2_2, #field_2_5{
+#field_3_2, #field_3_5{
     border: 1px solid #f7ae90;
     padding: 15px;
     margin-top: 15px;
 }
 
-#input_2_1, #input_2_4{border-color:#f7ae90;-webkit-appearance:none;background-color:white;margin-top:15px;}
+#input_3_1, #input_3_4{border-color:#f7ae90;-webkit-appearance:none;background-color:white;margin-top:15px;}
 
-#input_2_1 option{color:red;}
+#input_3_1 option{color:red;}
 
-#input_2_3{    width: 100%;
+#input_3_3{    width: 100%;
     padding: 15px;margin:0;margin-top:15px;}
 
 .gform_wrapper ul.gfield_radio li input[type="radio"]:checked+label{font-weight: normal !important;}
