@@ -9,7 +9,7 @@
 #
 # Change this to the name of the project. It should match the name of the Git repo.
 # This will set the name of the project directory and become the subdomain
-set :project, 'fsu' # the GitHub project name
+set :project, 'gatos' # the GitHub project name
 set :github_user, "mergeweb" # Your GitHub username
 set :domain_name, "gatos.upupdev.net" # should be something like project.mydomain.com
 set :user, 'merge' # VPS hosting ssh username

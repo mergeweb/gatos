@@ -9,11 +9,11 @@
 #
 # Change this to the name of the project. It should match the name of the Git repo.
 # This will set the name of the project directory and become the subdomain
-set :project, 'fsu' # the GitHub project name
+set :project, 'gatos' # the GitHub project name
 set :github_user, "mergeweb" # Your GitHub username
-set :domain_name, "education.fsu.edu" # should be something like project.mydomain.com
+set :domain_name, "gatos.upupdev.net" # should be something like project.mydomain.com
 set :user, 'merge' # VPS hosting ssh username
-set :domain, 'peach.mergeweb.net' # IP or domain name to ssh to
+set :domain, 'luigi.mergeweb.net' # IP or domain name to ssh to
 
 #### You shouldn't need to change anything below ########################################################
 default_run_options[:pty] = true
@@ -55,6 +55,5 @@ set :use_sudo, false
 after "deploy:update_code" do
   run "ln -s #{shared_path}/uploads #{release_path}/wp-content"
   run "ln -s #{shared_path}/wp_db_sync #{release_path}"
-  run "(cd #{release_path}/wp-content/themes/fsu/scss/; compass compile -c config.rb style.scss)"
 end
 after "deploy", "deploy:cleanup"
