@@ -4,7 +4,7 @@
 </head>
 
 <body>
-<?php gravity_form( 2, false, false, false, '', false ); ?>
+<?php gravity_form( 3, false, false, false, '', false ); ?>
 
 
 <?php wp_footer(); ?>
