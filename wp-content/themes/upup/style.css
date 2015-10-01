@@ -35,8 +35,9 @@ select option{color:red;}
 }
 
 #field_2_2{
-    background-color: ;
+    border: 1px solid #f7ae90;
     padding: 15px;
+    margin-top: 15px;
 }
 
 #input_2_1{border-color:#f7ae90;-webkit-appearance:none;background-color:white;}
@@ -44,10 +45,12 @@ select option{color:red;}
 #input_2_1 option{color:red;}
 
 #input_2_3{    width: 100%;
-    padding: 15px;margin:0;}
+    padding: 15px;margin:0;margin-top:15px;}
 
 .gform_wrapper ul.gfield_radio li input[type="radio"]:checked+label{font-weight: normal !important;}
 
 input[type=submit]{width: 100%;cursor:pointer;height:50px;background-color: white;color:#f7ae90;border:1px solid #f7ae90;}
 input[type=submit]:hover{color:white;background-color:#f7ae90;border:none;}
-.gform_wrapper .gform_footer{margin:0 !important;padding:0 !important;}
+.gform_wrapper .gform_footer{margin:0 !important;padding:0 !important; margin-top: 15px !important;}
+
+body .gform_wrapper label.gfield_label + div.ginput_container{margin-top:0px !important;}
