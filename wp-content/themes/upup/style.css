@@ -34,13 +34,13 @@ select option{color:red;}
     width: 100%;
 }
 
-#field_2_2{
+#field_2_2, #field_2_5{
     border: 1px solid #f7ae90;
     padding: 15px;
     margin-top: 15px;
 }
 
-#input_2_1{border-color:#f7ae90;-webkit-appearance:none;background-color:white;}
+#input_2_1, #input_2_4{border-color:#f7ae90;-webkit-appearance:none;background-color:white;margin-top:15px;}
 
 #input_2_1 option{color:red;}
 

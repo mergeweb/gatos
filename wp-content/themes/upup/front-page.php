@@ -12,7 +12,7 @@
 
 <script type="text/javascript">
 	$(document).ready(function() {
-	   $('#input_2_1 option:first').attr('disabled','disabled').css("color","#f7ae90");
-	  
+	   $('#input_2_1 option:first, #input_2_4 option:first').attr('disabled','disabled').css("color","#f7ae90");
+
 	});
 </script>
