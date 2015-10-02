@@ -1069,7 +1069,7 @@ class GFFormSettings {
 			$confirmation['id']   = 'new';
 			if ( $confirmation['isDefault'] ) {
 				$confirmation['isDefault']        = false;
-				$confirmation['conditionalLogic'] = '';
+				// $confirmation['conditionalLogic'] = '';
 			}
 		}
 
