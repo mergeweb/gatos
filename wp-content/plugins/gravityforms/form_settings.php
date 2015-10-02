@@ -1689,6 +1689,14 @@ require_once( ABSPATH . '/wp-admin/includes/class-wp-list-table.php' );
 
 class GFConfirmationTable extends WP_List_Table {
 
+	function get_columns() {
+        $columns = array(
+                'name' => 'Name',
+                'subject' => 'Subject'
+                );
+        return $columns;
+    }
+
 	public $form;
 
 	function __construct( $form ) {
